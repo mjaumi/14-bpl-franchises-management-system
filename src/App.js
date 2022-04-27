@@ -1,10 +1,13 @@
 import './App.css';
+import Home from './Pages/Home/Home';
+import Header from './Pages/Shared/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-      <h1>14-BPL</h1>
-    </div>
+    <main className="App bg-14-bpl-dark-blue min-h-screen font-poppins">
+      <Header />
+      <Home />
+    </main>
   );
 }
 
