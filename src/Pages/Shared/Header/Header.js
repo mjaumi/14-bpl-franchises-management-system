@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className='bg-14-bpl-royal-blue py-5 text-14-bpl-white sticky'>
+        <header className='bg-14-bpl-royal-blue py-5 text-14-bpl-white fixed w-full'>
             <div className='w-4/5 mx-auto flex justify-between items-center'>
                 <div>
                     <h1 className='text-14-bpl-cg-blue'>14-<span className='font-extrabold text-3xl'>BPL</span> </h1>
